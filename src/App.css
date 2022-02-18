@@ -3,8 +3,11 @@
 }
 
 .all {
+
+  /* stylelint-disable-next-line function-url-quotes */
   background-image: url(./outerspace-58.gif);
-  background-size:contain
+  background-size: contain;
+  color: azure;
 }
 
 header {
@@ -13,4 +16,50 @@ header {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
 
+.planets {
+  background-color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  opacity: 80%;
+}
+
+.planetas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 70%;
+}
+
+.nomes {
+  font-size: large;
+}
+
+.missoes {
+  align-content: stretch;
+  align-items: center;
+  background-color: black;
+  border: solid 1px plum;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-right: 3px;
+  opacity: 80%;
+}
+
+.missoes:hover {
+  transform: scale(1.1);
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}

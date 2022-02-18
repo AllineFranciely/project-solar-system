@@ -12,7 +12,7 @@ class SolarSystem extends React.Component {
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
-        <div>{cards}</div>
+        <div className="planets">{cards}</div>
       </div>
     );
   }
