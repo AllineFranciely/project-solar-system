@@ -7,7 +7,7 @@ import Missions from './components/Missions';
 class App extends React.Component {
   render() {
     return (
-      <div className='all'>
+      <div className="all">
         <Header />
         <SolarSystem />
         <Missions />
