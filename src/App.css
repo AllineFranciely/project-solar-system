@@ -3,9 +3,7 @@
 }
 
 .all {
-
-  /* stylelint-disable-next-line function-url-quotes */
-  background-image: url(./outerspace-58.gif);
+  background-image: url('./outerspace-58.gif');
   background-size: contain;
   color: azure;
 }
