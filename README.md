@@ -87,3 +87,5 @@ import missions from '../data/missions';
 }
 ```
 - Para cada missão espacial da lista, você deverá renderizar um componente `MissionCard`, passando o cada atributo para sua respectiva prop.
+
+![Gravação de tela de 31-05-2022 18_29_46](https://user-images.githubusercontent.com/86837443/171287982-81f55569-bc1b-47f3-ab48-9de6b543b9d7.gif)
